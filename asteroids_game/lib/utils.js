@@ -1,0 +1,10 @@
+const Util = {};
+
+Util.inherits = function(child, parent) {
+  let Surrogate = function () {};
+  Surrogate.prototype = parent.prototype;
+  child.prototype = new Surrogate();
+  child.prototype.constructor = child;
+};
+
+module.exports = Util;
