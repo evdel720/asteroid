@@ -7,4 +7,6 @@ Util.inherits = function(child, parent) {
   child.prototype.constructor = child;
 };
 
+// Util.randomVec(length)
+
 module.exports = Util;
