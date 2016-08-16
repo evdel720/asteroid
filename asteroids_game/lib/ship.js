@@ -15,7 +15,7 @@ Ship.prototype.relocate = function() {
 };
 
 Ship.prototype.power = function(impulse) {
-  
-}
+  //TODO
+};
 
 module.exports = Ship;

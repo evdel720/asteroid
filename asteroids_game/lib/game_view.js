@@ -14,4 +14,8 @@ GameView.prototype.start = function(){
   }, 20);
 };
 
+GameView.prototype.bindKeyHandlers = function() {
+  // key('a', function(){ this.game.ship.power() });
+};
+
 module.exports = GameView;

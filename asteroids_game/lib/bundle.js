@@ -72,6 +72,10 @@
 	  }, 20);
 	};
 
+	GameView.prototype.bindKeyHandlers = function() {
+	  // key('a', function(){ this.game.ship.power() });
+	};
+
 	module.exports = GameView;
 
 
@@ -280,8 +284,8 @@
 	};
 
 	Ship.prototype.power = function(impulse) {
-	  
-	}
+	  //TODO
+	};
 
 	module.exports = Ship;
 
