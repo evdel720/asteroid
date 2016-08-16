@@ -9,7 +9,7 @@ function GameView() {
 GameView.prototype.start = function(){
   let currView = this;
   window.setInterval(function () {
-    currView.game.moveObjects();
+    currView.game.step();
     currView.game.draw(currView.ctx);
   }, 20);
 };
